@@ -1,31 +1,26 @@
 *{
     font-family: 'Roboto', sans-serif;
-    /* border: solid black 2px; */
     color: rgb(10, 10, 10);
 }
 
 /* header */
 header{
     margin: 1.5rem;
-    height: 12rem;
+    height: 10rem;
     display: flex;
     justify-content: space-around;
     background-image: url(../img/header_floss.jpg);
     background-size: cover;
+    border-radius: 3rem;
     text-align: center;
 }
 
 .header_text {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .header_text h3 {
-    margin-top: 2rem;
-}
-
-img{
-    width: 10em;
-    margin: 0.5rem;
+    margin-top: 1rem;
 }
 
 /* main */
@@ -41,13 +36,12 @@ main{
 .section_principal img{
     width: 25%;
     margin: 2rem;
-    border-radius: 1rem;
+    border-radius: 3rem;
 }
 
 .section_text{
     margin: 6rem 2rem;
     width: 15rem;
-    height: 10rem;
     font-size: large;
 }
 
@@ -58,8 +52,16 @@ main{
 /* footer */
 
 footer{
+    margin: 0rem 5rem;
+    height: 2.5rem;
     text-align: center;
-    color: rgb(10, 10, 10);
+    background-image: url(../img/header_floss.jpg);
+    background-size: cover;
+    border-radius: 3rem;
+}
+
+footer p {
+    padding-top: 0.75rem;
 }
 
 footer a{
@@ -67,5 +69,5 @@ footer a{
 }
 
 footer a:hover{
-    color: rgb(144, 71, 228);
+    color: rgb(170, 124, 56);
 }
